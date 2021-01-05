@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiCo\:package_namespace;
+namespace AxlMedia\:package_namespace;
 
 use Illuminate\Support\ServiceProvider;
 

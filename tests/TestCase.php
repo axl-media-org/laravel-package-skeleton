@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiCo\:package_namespace\Test;
+namespace AxlMedia\:package_namespace\Test;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 

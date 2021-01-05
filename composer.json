@@ -1,13 +1,13 @@
 {
-    "name": "renoki-co/:package_name",
+    "name": "axl-media-org/:package_name",
     "description": ":package_description",
     "keywords": ["laravel", "php"],
     "license": "Apache-2.0",
-    "homepage": "https://github.com/renoki-co/:package_name",
+    "homepage": "https://github.com/axl-media-org/:package_name",
     "authors": [
         {
-            "name": "Alex Renoki",
-            "homepage": "https://github.com/rennokki",
+            "name": "AXL Media",
+            "homepage": "https://axl.media",
             "role": "Developer"
         }
     ],
@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "RenokiCo\\:package_namespace\\": "src/"
+            "AxlMedia\\:package_namespace\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RenokiCo\\:package_namespace\\Test\\": "tests"
+            "AxlMedia\\:package_namespace\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RenokiCo\\:package_namespace\\:package_service_provider"
+                "AxlMedia\\:package_namespace\\:package_service_provider"
             ]
         }
     }
